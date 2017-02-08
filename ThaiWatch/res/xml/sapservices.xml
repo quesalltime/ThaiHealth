@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <application name="ThaiWatch">
+        <serviceProfile
+            id="/system/sapimageswitcher"
+            name="sapimageswitcher"
+            role="consumer"
+            version="1.0">
+            <supportedTransports>
+            	<transport type="TRANSPORT_BT"/>
+                <transport type="TRANSPORT_WIFI" />
+            </supportedTransports>
+            <serviceChannel
+                id="1982"
+                dataRate="low"
+                priority="low"
+                reliability= "enable">
+            </serviceChannel>   
+    	</serviceProfile>
+    </application>
+</resources>
